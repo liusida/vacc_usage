@@ -137,7 +137,8 @@ for i, (key,value) in enumerate(cluster_settings.items()):
 
 fig.update_xaxes(
     title_text='Percentage of total resources',
-    range=[0,5],
+    tickformat= ',.0%',
+    range=[0,3],
 )
 fig.update_layout(
     barmode='stack',
