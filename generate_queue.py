@@ -14,8 +14,31 @@ now = datetime.now()
 current_time = now.strftime("%A, %B %d, %Y %I:%M:%S")
 timestamp = datetime.timestamp(now)
 
-df_bluemoon = pd.read_csv(f"{args.database}/bluemoon.queue.txt")
-print(df_bluemoon)
+def get_resources_amount(partition='bluemoon', status='running'):
+
+    df = pd.read_csv(f"{args.database}/{partition}.queue.txt", delim_whitespace=True)
+    df['MEM_G'] = df['TRES_ALLOC'].str.extract(r'mem=(\d+)G').fillna(0).astype(float)
+    df['MEM_M'] = df['TRES_ALLOC'].str.extract(r'mem=(\d+)M').fillna(0).astype(float)
+    df['MEM'] = df['MEM_G'] + df['MEM_M']/1024.
+    df['GPU'] = df['TRES_PER_NODE'].str.extract(r'gpu:(\d+)').fillna(0).astype(float)
+    df['CPU'] = df['TRES_ALLOC'].str.extract(r'cpu=(\d+)').fillna(0).astype(float)
+
+    if status=='running':
+        df_status = df[df['EXEC_HOST'].notna()]
+    else:
+        df_status = df[df['EXEC_HOST'].isna()]
+    # print(df_status)
+    cpu = df_status['CPU'].sum()
+    gpu = df_status['GPU'].sum()
+    mem = df_status['MEM'].sum()
+    print(f"{partition} - {status}:  cpu: {cpu}, gpu: {gpu}, mem: {mem}")
+    return cpu,gpu,mem
+
+get_resources_amount('bluemoon', 'waiting')
+get_resources_amount('bluemoon', 'running')
+get_resources_amount('deepgreen', 'waiting')
+get_resources_amount('deepgreen', 'running')
+
 
 exit()
 
