@@ -1,5 +1,5 @@
 import argparse
-import sqlite3
+from datetime import datetime
 import pandas as pd
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
@@ -7,17 +7,17 @@ from plotly.subplots import make_subplots
 pd.options.plotting.backend = "plotly"
 
 parser = argparse.ArgumentParser()
-parser.add_argument("-d", "--database", default='vacc_database.backup_2021_06_03.db', help='path to VACC usage database.')
+parser.add_argument("-d", "--database", default='data', help='path to VACC queue data folder.')
 args = parser.parse_args()
 
-con = sqlite3.connect(args.database)
-cur = con.cursor()
-
-
-from datetime import datetime
 now = datetime.now()
 current_time = now.strftime("%A, %B %d, %Y %I:%M:%S")
 timestamp = datetime.timestamp(now)
+
+df_bluemoon = pd.read_csv(f"{args.database}/bluemoon.queue.txt")
+print(df_bluemoon)
+
+exit()
 
 plot_settings = [
     [
