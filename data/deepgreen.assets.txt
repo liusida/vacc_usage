@@ -1,0 +1,12 @@
+Fri Jun  4 07:49:28 2021
+NODELIST      NODES PARTITION       STATE CPUS    S:C:T MEMORY TMP_DISK WEIGHT AVAIL_FE REASON              
+dg-gpunode01      1    dggpu*       mixed   32   2:16:1 772643   100000      1   (null) none                
+dg-gpunode02      1    dg-jup       mixed   32   2:16:1 772643   100000      1   (null) none                
+dg-gpunode03      1    dggpu*       mixed   32   2:16:1 772643   100000      1   (null) none                
+dg-gpunode04      1    dggpu*   allocated   32   2:16:1 772643   100000      1   (null) none                
+dg-gpunode05      1    dggpu*   allocated   32   2:16:1 772643   100000      1   (null) none                
+dg-gpunode06      1    dggpu*   allocated   32   2:16:1 772643   100000      1   (null) none                
+dg-gpunode07      1    dggpu*   allocated   32   2:16:1 772643   100000      1   (null) none                
+dg-gpunode08      1    dggpu*   allocated   32   2:16:1 772643   100000      1   (null) none                
+dg-gpunode09      1    dggpu*       mixed   32   2:16:1 772643   100000      1   (null) none                
+dg-gpunode10      1    dggpu*   allocated   32   2:16:1 772643   100000      1   (null) none                
