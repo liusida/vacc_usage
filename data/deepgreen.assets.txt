@@ -1,4 +1,4 @@
-Fri Jun  4 07:49:28 2021
+Fri Jun  4 08:09:06 2021
 NODELIST      NODES PARTITION       STATE CPUS    S:C:T MEMORY TMP_DISK WEIGHT AVAIL_FE REASON              
 dg-gpunode01      1    dggpu*       mixed   32   2:16:1 772643   100000      1   (null) none                
 dg-gpunode02      1    dg-jup       mixed   32   2:16:1 772643   100000      1   (null) none                
