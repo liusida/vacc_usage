@@ -71,4 +71,4 @@ fig.update_layout(
     title=f"Recent Usage of VACC resources (Generated at {current_time})",
 )
 
-fig.write_html("public_html/usage.plots.html", default_height=1500)
+fig.write_html("public_html/history.plots.html", default_height=1500)
