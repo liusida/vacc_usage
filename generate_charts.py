@@ -1,3 +1,4 @@
+import argparse
 import sqlite3
 import pandas as pd
 import plotly.graph_objects as go
@@ -5,8 +6,11 @@ from plotly.subplots import make_subplots
 
 pd.options.plotting.backend = "plotly"
 
-db_path = 'vacc_database.backup_2021_06_03.db'
-con = sqlite3.connect(db_path)
+parser = argparse.ArgumentParser()
+parser.add_argument("-d", "--database", default='vacc_database.backup_2021_06_03.db', help='path to VACC usage database.')
+args = parser.parse_args()
+
+con = sqlite3.connect(args.database)
 cur = con.cursor()
 
 
