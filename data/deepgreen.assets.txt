@@ -1,12 +1,11 @@
-Fri Jun  4 08:09:06 2021
-NODELIST      NODES PARTITION       STATE CPUS    S:C:T MEMORY TMP_DISK WEIGHT AVAIL_FE REASON              
-dg-gpunode01      1    dggpu*       mixed   32   2:16:1 772643   100000      1   (null) none                
-dg-gpunode02      1    dg-jup       mixed   32   2:16:1 772643   100000      1   (null) none                
-dg-gpunode03      1    dggpu*       mixed   32   2:16:1 772643   100000      1   (null) none                
-dg-gpunode04      1    dggpu*   allocated   32   2:16:1 772643   100000      1   (null) none                
-dg-gpunode05      1    dggpu*   allocated   32   2:16:1 772643   100000      1   (null) none                
-dg-gpunode06      1    dggpu*   allocated   32   2:16:1 772643   100000      1   (null) none                
-dg-gpunode07      1    dggpu*   allocated   32   2:16:1 772643   100000      1   (null) none                
-dg-gpunode08      1    dggpu*   allocated   32   2:16:1 772643   100000      1   (null) none                
-dg-gpunode09      1    dggpu*       mixed   32   2:16:1 772643   100000      1   (null) none                
-dg-gpunode10      1    dggpu*   allocated   32   2:16:1 772643   100000      1   (null) none                
+PARTITION           NODELIST            CPUS                GRES                GRES_USED           MEMORY              
+dggpu*              dg-gpunode01        32                  gpu:8               gpu:8               772643              
+dg-jup              dg-gpunode02        32                  gpu:8               gpu:8               772643              
+dggpu*              dg-gpunode03        32                  gpu:8               gpu:8               772643              
+dggpu*              dg-gpunode04        32                  gpu:8               gpu:5               772643              
+dggpu*              dg-gpunode05        32                  gpu:8               gpu:8               772643              
+dggpu*              dg-gpunode06        32                  gpu:8               gpu:5               772643              
+dggpu*              dg-gpunode07        32                  gpu:8               gpu:2               772643              
+dggpu*              dg-gpunode08        32                  gpu:8               gpu:5               772643              
+dggpu*              dg-gpunode09        32                  gpu:8               gpu:8               772643              
+dggpu*              dg-gpunode10        32                  gpu:8               gpu:8               772643              

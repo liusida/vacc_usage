@@ -1,598 +1,597 @@
-Fri Jun 04 07:48:50 2021
-NODELIST      NODES PARTITION       STATE CPUS    S:C:T MEMORY TMP_DISK WEIGHT AVAIL_FE REASON               
-bd-gpunode01      1     bdgpu       mixed 48     1:48:1 512000   800000      1   amdgpu none                 
-bd-gpunode02      1     bdgpu       mixed 48     1:48:1 512000   800000      1   amdgpu none                 
-bd-gpunode03      1     bdgpu       mixed 48     1:48:1 512000   800000      1   amdgpu none                 
-bd-gpunode04      1     bdgpu       mixed 48     1:48:1 512000   800000      1   amdgpu none                 
-bd-gpunode05      1     bdgpu       mixed 48     1:48:1 512000   800000      1   amdgpu none                 
-bd-gpunode06      1     bdgpu       mixed 48     1:48:1 512000   800000      1   amdgpu none                 
-node100           1        ib       mixed 20     2:10:1  62000   100000      1 ib,haswe none                 
-node100           1     short       mixed 20     2:10:1  62000   100000      1 ib,haswe none                 
-node101           1        ib       mixed 20     2:10:1  62000   100000      1 ib,haswe none                 
-node101           1     short       mixed 20     2:10:1  62000   100000      1 ib,haswe none                 
-node102           1        ib       mixed 20     2:10:1  62000   100000      1 ib,haswe none                 
-node102           1     short       mixed 20     2:10:1  62000   100000      1 ib,haswe none                 
-node103           1        ib       mixed 20     2:10:1  62000   100000      1 ib,haswe none                 
-node103           1     short       mixed 20     2:10:1  62000   100000      1 ib,haswe none                 
-node104           1        ib   allocated 20     2:10:1  62000   100000      1 ib,haswe none                 
-node104           1     short   allocated 20     2:10:1  62000   100000      1 ib,haswe none                 
-node105           1        ib   allocated 20     2:10:1  62000   100000      1 ib,haswe none                 
-node105           1     short   allocated 20     2:10:1  62000   100000      1 ib,haswe none                 
-node106           1        ib   allocated 20     2:10:1  62000   100000      1 ib,haswe none                 
-node106           1     short   allocated 20     2:10:1  62000   100000      1 ib,haswe none                 
-node107           1        ib   allocated 20     2:10:1  62000   100000      1 ib,haswe none                 
-node107           1     short   allocated 20     2:10:1  62000   100000      1 ib,haswe none                 
-node108           1        ib   allocated 20     2:10:1  62000   100000      1 ib,haswe none                 
-node108           1     short   allocated 20     2:10:1  62000   100000      1 ib,haswe none                 
-node109           1        ib   allocated 20     2:10:1  62000   100000      1 ib,haswe none                 
-node109           1     short   allocated 20     2:10:1  62000   100000      1 ib,haswe none                 
-node110           1        ib   allocated 20     2:10:1  62000   100000      1 ib,haswe none                 
-node110           1     short   allocated 20     2:10:1  62000   100000      1 ib,haswe none                 
-node111           1        ib   allocated 20     2:10:1  62000   100000      1 ib,haswe none                 
-node111           1     short   allocated 20     2:10:1  62000   100000      1 ib,haswe none                 
-node112           1        ib   allocated 20     2:10:1  62000   100000      1 ib,haswe none                 
-node112           1     short   allocated 20     2:10:1  62000   100000      1 ib,haswe none                 
-node113           1        ib   allocated 20     2:10:1  62000   100000      1 ib,haswe none                 
-node113           1     short   allocated 20     2:10:1  62000   100000      1 ib,haswe none                 
-node114           1        ib   allocated 20     2:10:1  62000   100000      1 ib,haswe none                 
-node114           1     short   allocated 20     2:10:1  62000   100000      1 ib,haswe none                 
-node115           1        ib   allocated 20     2:10:1  62000   100000      1 ib,haswe none                 
-node115           1     short   allocated 20     2:10:1  62000   100000      1 ib,haswe none                 
-node116           1        ib       mixed 20     2:10:1  62000   100000      1 ib,haswe none                 
-node116           1     short       mixed 20     2:10:1  62000   100000      1 ib,haswe none                 
-node117           1        ib       mixed 20     2:10:1  62000   100000      1 ib,haswe none                 
-node117           1     short       mixed 20     2:10:1  62000   100000      1 ib,haswe none                 
-node118           1        ib       mixed 20     2:10:1  62000   100000      1 ib,haswe none                 
-node118           1     short       mixed 20     2:10:1  62000   100000      1 ib,haswe none                 
-node119           1        ib       mixed 20     2:10:1  62000   100000      1 ib,haswe none                 
-node119           1     short       mixed 20     2:10:1  62000   100000      1 ib,haswe none                 
-node120           1        ib       mixed 20     2:10:1  62000   100000      1 ib,haswe none                 
-node120           1     short       mixed 20     2:10:1  62000   100000      1 ib,haswe none                 
-node121           1        ib       mixed 20     2:10:1  62000   100000      1 ib,haswe none                 
-node121           1     short       mixed 20     2:10:1  62000   100000      1 ib,haswe none                 
-node122           1        ib       mixed 20     2:10:1  62000   100000      1 ib,haswe none                 
-node122           1     short       mixed 20     2:10:1  62000   100000      1 ib,haswe none                 
-node123           1        ib       mixed 20     2:10:1  62000   100000      1 ib,haswe none                 
-node123           1     short       mixed 20     2:10:1  62000   100000      1 ib,haswe none                 
-node124           1        ib       mixed 20     2:10:1  62000   100000      1 ib,haswe none                 
-node124           1     short       mixed 20     2:10:1  62000   100000      1 ib,haswe none                 
-node125           1        ib       mixed 20     2:10:1  62000   100000      1 ib,haswe none                 
-node125           1     short       mixed 20     2:10:1  62000   100000      1 ib,haswe none                 
-node126           1        ib       mixed 20     2:10:1  62000   100000      1 ib,haswe none                 
-node126           1     short       mixed 20     2:10:1  62000   100000      1 ib,haswe none                 
-node127           1        ib       mixed 20     2:10:1  62000   100000      1 ib,haswe none                 
-node127           1     short       mixed 20     2:10:1  62000   100000      1 ib,haswe none                 
-node128           1        ib       mixed 20     2:10:1  62000   100000      1 ib,haswe none                 
-node128           1     short       mixed 20     2:10:1  62000   100000      1 ib,haswe none                 
-node129           1        ib       mixed 20     2:10:1  62000   100000      1 ib,haswe none                 
-node129           1     short       mixed 20     2:10:1  62000   100000      1 ib,haswe none                 
-node130           1        ib   allocated 20     2:10:1  62000   100000      1 ib,haswe none                 
-node130           1     short   allocated 20     2:10:1  62000   100000      1 ib,haswe none                 
-node131           1        ib   allocated 20     2:10:1  62000   100000      1 ib,haswe none                 
-node131           1     short   allocated 20     2:10:1  62000   100000      1 ib,haswe none                 
-node132           1        ib       mixed 20     2:10:1  62000   100000      3 ib,haswe none                 
-node132           1     short       mixed 20     2:10:1  62000   100000      3 ib,haswe none                 
-node133           1        ib       mixed 20     2:10:1  62000   100000      3 ib,haswe none                 
-node133           1     short       mixed 20     2:10:1  62000   100000      3 ib,haswe none                 
-node134           1        ib       mixed 20     2:10:1  62000   100000      3 ib,haswe none                 
-node134           1     short       mixed 20     2:10:1  62000   100000      3 ib,haswe none                 
-node135           1        ib       mixed 20     2:10:1  62000   100000      3 ib,haswe none                 
-node135           1     short       mixed 20     2:10:1  62000   100000      3 ib,haswe none                 
-node136           1        ib       mixed 20     2:10:1  62000   100000      3 ib,haswe none                 
-node136           1     short       mixed 20     2:10:1  62000   100000      3 ib,haswe none                 
-node137           1        ib       mixed 20     2:10:1  62000   100000      3 ib,haswe none                 
-node137           1     short       mixed 20     2:10:1  62000   100000      3 ib,haswe none                 
-node138           1        ib       mixed 20     2:10:1  62000   100000      3 ib,haswe none                 
-node138           1     short       mixed 20     2:10:1  62000   100000      3 ib,haswe none                 
-node139           1        ib       mixed 20     2:10:1  62000   100000      3 ib,haswe none                 
-node139           1     short       mixed 20     2:10:1  62000   100000      3 ib,haswe none                 
-node140           1  bigmemwk       mixed 20     2:10:1 250000   100000      1  haswell none                 
-node140           1    bigmem       mixed 20     2:10:1 250000   100000      1  haswell none                 
-node140           1     short       mixed 20     2:10:1 250000   100000      1  haswell none                 
-node141           1  bigmemwk       mixed 20     2:10:1 250000   100000      1  haswell none                 
-node141           1    bigmem       mixed 20     2:10:1 250000   100000      1  haswell none                 
-node141           1     short       mixed 20     2:10:1 250000   100000      1  haswell none                 
-node142           1  bigmemwk       mixed 20     2:10:1 250000   100000      1  haswell none                 
-node142           1    bigmem       mixed 20     2:10:1 250000   100000      1  haswell none                 
-node142           1     short       mixed 20     2:10:1 250000   100000      1  haswell none                 
-node200           1 bluemoon*   allocated 24     2:12:1  62000   200000      1 10g,broa none                 
-node200           1    bigmem   allocated 24     2:12:1  62000   200000      1 10g,broa none                 
-node200           1     short   allocated 24     2:12:1  62000   200000      1 10g,broa none                 
-node201           1 bluemoon*   allocated 24     2:12:1  62000   200000      1 10g,broa none                 
-node201           1    bigmem   allocated 24     2:12:1  62000   200000      1 10g,broa none                 
-node201           1     short   allocated 24     2:12:1  62000   200000      1 10g,broa none                 
-node202           1 bluemoon*   allocated 24     2:12:1  62000   200000      1 10g,broa none                 
-node202           1    bigmem   allocated 24     2:12:1  62000   200000      1 10g,broa none                 
-node202           1     short   allocated 24     2:12:1  62000   200000      1 10g,broa none                 
-node203           1 bluemoon*   allocated 24     2:12:1  62000   200000      1 10g,broa none                 
-node203           1    bigmem   allocated 24     2:12:1  62000   200000      1 10g,broa none                 
-node203           1     short   allocated 24     2:12:1  62000   200000      1 10g,broa none                 
-node204           1 bluemoon*   allocated 24     2:12:1  62000   200000      1 10g,broa none                 
-node204           1    bigmem   allocated 24     2:12:1  62000   200000      1 10g,broa none                 
-node204           1     short   allocated 24     2:12:1  62000   200000      1 10g,broa none                 
-node205           1 bluemoon*   allocated 24     2:12:1  62000   200000      1 10g,broa none                 
-node205           1    bigmem   allocated 24     2:12:1  62000   200000      1 10g,broa none                 
-node205           1     short   allocated 24     2:12:1  62000   200000      1 10g,broa none                 
-node206           1 bluemoon*   allocated 24     2:12:1  62000   200000      1 10g,broa none                 
-node206           1    bigmem   allocated 24     2:12:1  62000   200000      1 10g,broa none                 
-node206           1     short   allocated 24     2:12:1  62000   200000      1 10g,broa none                 
-node207           1 bluemoon*   allocated 24     2:12:1  62000   200000      1 10g,broa none                 
-node207           1    bigmem   allocated 24     2:12:1  62000   200000      1 10g,broa none                 
-node207           1     short   allocated 24     2:12:1  62000   200000      1 10g,broa none                 
-node208           1 bluemoon*   allocated 24     2:12:1  62000   200000      1 10g,broa none                 
-node208           1    bigmem   allocated 24     2:12:1  62000   200000      1 10g,broa none                 
-node208           1     short   allocated 24     2:12:1  62000   200000      1 10g,broa none                 
-node209           1 bluemoon*   allocated 24     2:12:1  62000   200000      1 10g,broa none                 
-node209           1    bigmem   allocated 24     2:12:1  62000   200000      1 10g,broa none                 
-node209           1     short   allocated 24     2:12:1  62000   200000      1 10g,broa none                 
-node210           1 bluemoon*   allocated 24     2:12:1  62000   200000      1 10g,broa none                 
-node210           1    bigmem   allocated 24     2:12:1  62000   200000      1 10g,broa none                 
-node210           1     short   allocated 24     2:12:1  62000   200000      1 10g,broa none                 
-node211           1      week   allocated 24     2:12:1  62000   200000      1 10g,broa none                 
-node211           1 bluemoon*   allocated 24     2:12:1  62000   200000      1 10g,broa none                 
-node211           1    bigmem   allocated 24     2:12:1  62000   200000      1 10g,broa none                 
-node211           1     short   allocated 24     2:12:1  62000   200000      1 10g,broa none                 
-node212           1      week   allocated 24     2:12:1  62000   200000      1 10g,broa none                 
-node212           1 bluemoon*   allocated 24     2:12:1  62000   200000      1 10g,broa none                 
-node212           1    bigmem   allocated 24     2:12:1  62000   200000      1 10g,broa none                 
-node212           1     short   allocated 24     2:12:1  62000   200000      1 10g,broa none                 
-node213           1      week   allocated 24     2:12:1  62000   200000      1 10g,broa none                 
-node213           1 bluemoon*   allocated 24     2:12:1  62000   200000      1 10g,broa none                 
-node213           1    bigmem   allocated 24     2:12:1  62000   200000      1 10g,broa none                 
-node213           1     short   allocated 24     2:12:1  62000   200000      1 10g,broa none                 
-node214           1      week       mixed 24     2:12:1  62000   200000      1 10g,broa none                 
-node214           1 bluemoon*       mixed 24     2:12:1  62000   200000      1 10g,broa none                 
-node214           1    bigmem       mixed 24     2:12:1  62000   200000      1 10g,broa none                 
-node214           1     short       mixed 24     2:12:1  62000   200000      1 10g,broa none                 
-node215           1      week       mixed 24     2:12:1  62000   200000      1 10g,broa none                 
-node215           1 bluemoon*       mixed 24     2:12:1  62000   200000      1 10g,broa none                 
-node215           1    bigmem       mixed 24     2:12:1  62000   200000      1 10g,broa none                 
-node215           1     short       mixed 24     2:12:1  62000   200000      1 10g,broa none                 
-node216           1 bluemoon*       mixed 24     2:12:1  62000   200000      1 10g,broa none                 
-node216           1    bigmem       mixed 24     2:12:1  62000   200000      1 10g,broa none                 
-node216           1     short       mixed 24     2:12:1  62000   200000      1 10g,broa none                 
-node217           1 bluemoon*       mixed 24     2:12:1  62000   200000      1 10g,broa none                 
-node217           1    bigmem       mixed 24     2:12:1  62000   200000      1 10g,broa none                 
-node217           1     short       mixed 24     2:12:1  62000   200000      1 10g,broa none                 
-node218           1 bluemoon*       mixed 24     2:12:1  62000   200000      1 10g,broa none                 
-node218           1    bigmem       mixed 24     2:12:1  62000   200000      1 10g,broa none                 
-node218           1     short       mixed 24     2:12:1  62000   200000      1 10g,broa none                 
-node219           1 bluemoon*       mixed 24     2:12:1  62000   200000      1 10g,broa none                 
-node219           1    bigmem       mixed 24     2:12:1  62000   200000      1 10g,broa none                 
-node219           1     short       mixed 24     2:12:1  62000   200000      1 10g,broa none                 
-node220           1 bluemoon*       mixed 24     2:12:1  62000   200000      1 10g,broa none                 
-node220           1    bigmem       mixed 24     2:12:1  62000   200000      1 10g,broa none                 
-node220           1     short       mixed 24     2:12:1  62000   200000      1 10g,broa none                 
-node221           1 bluemoon*       mixed 24     2:12:1  62000   200000      1 10g,broa none                 
-node221           1    bigmem       mixed 24     2:12:1  62000   200000      1 10g,broa none                 
-node221           1     short       mixed 24     2:12:1  62000   200000      1 10g,broa none                 
-node222           1 bluemoon*       mixed 24     2:12:1  62000   200000      1 10g,broa none                 
-node222           1    bigmem       mixed 24     2:12:1  62000   200000      1 10g,broa none                 
-node222           1     short       mixed 24     2:12:1  62000   200000      1 10g,broa none                 
-node223           1 bluemoon*       mixed 24     2:12:1  62000   200000      1 10g,broa none                 
-node223           1    bigmem       mixed 24     2:12:1  62000   200000      1 10g,broa none                 
-node223           1     short       mixed 24     2:12:1  62000   200000      1 10g,broa none                 
-node224           1 bluemoon*       mixed 24     2:12:1  62000   200000      1 10g,broa none                 
-node224           1    bigmem       mixed 24     2:12:1  62000   200000      1 10g,broa none                 
-node224           1     short       mixed 24     2:12:1  62000   200000      1 10g,broa none                 
-node225           1 bluemoon*       mixed 24     2:12:1  62000   200000      1 10g,broa none                 
-node225           1    bigmem       mixed 24     2:12:1  62000   200000      1 10g,broa none                 
-node225           1     short       mixed 24     2:12:1  62000   200000      1 10g,broa none                 
-node226           1 bluemoon*       mixed 24     2:12:1  62000   200000      1 10g,broa none                 
-node226           1    bigmem       mixed 24     2:12:1  62000   200000      1 10g,broa none                 
-node226           1     short       mixed 24     2:12:1  62000   200000      1 10g,broa none                 
-node227           1 bluemoon*       mixed 24     2:12:1  62000   200000      1 10g,broa none                 
-node227           1    bigmem       mixed 24     2:12:1  62000   200000      1 10g,broa none                 
-node227           1     short       mixed 24     2:12:1  62000   200000      1 10g,broa none                 
-node228           1 bluemoon*       mixed 24     2:12:1  62000   200000      1 10g,broa none                 
-node228           1    bigmem       mixed 24     2:12:1  62000   200000      1 10g,broa none                 
-node228           1     short       mixed 24     2:12:1  62000   200000      1 10g,broa none                 
-node229           1 bluemoon*       mixed 24     2:12:1  62000   200000      1 10g,broa none                 
-node229           1    bigmem       mixed 24     2:12:1  62000   200000      1 10g,broa none                 
-node229           1     short       mixed 24     2:12:1  62000   200000      1 10g,broa none                 
-node230           1  bigmemwk       mixed 24     2:12:1  62000   200000      1 10g,broa none                 
-node230           1 bluemoon*       mixed 24     2:12:1  62000   200000      1 10g,broa none                 
-node230           1    bigmem       mixed 24     2:12:1  62000   200000      1 10g,broa none                 
-node230           1     short       mixed 24     2:12:1  62000   200000      1 10g,broa none                 
-node231           1  bigmemwk       mixed 24     2:12:1  62000   200000      1 10g,broa none                 
-node231           1 bluemoon*       mixed 24     2:12:1  62000   200000      1 10g,broa none                 
-node231           1    bigmem       mixed 24     2:12:1  62000   200000      1 10g,broa none                 
-node231           1     short       mixed 24     2:12:1  62000   200000      1 10g,broa none                 
-node232           1  bigmemwk       mixed 24     2:12:1 250000   200000      1 10g,broa none                 
-node232           1 bluemoon*       mixed 24     2:12:1 250000   200000      1 10g,broa none                 
-node232           1    bigmem       mixed 24     2:12:1 250000   200000      1 10g,broa none                 
-node232           1     short       mixed 24     2:12:1 250000   200000      1 10g,broa none                 
-node233           1  bigmemwk       mixed 24     2:12:1 250000   200000      1 10g,broa none                 
-node233           1 bluemoon*       mixed 24     2:12:1 250000   200000      1 10g,broa none                 
-node233           1    bigmem       mixed 24     2:12:1 250000   200000      1 10g,broa none                 
-node233           1     short       mixed 24     2:12:1 250000   200000      1 10g,broa none                 
-node234           1  bigmemwk       mixed 24     2:12:1 250000   200000      1 10g,broa none                 
-node234           1 bluemoon*       mixed 24     2:12:1 250000   200000      1 10g,broa none                 
-node234           1    bigmem       mixed 24     2:12:1 250000   200000      1 10g,broa none                 
-node234           1     short       mixed 24     2:12:1 250000   200000      1 10g,broa none                 
-node235           1  bigmemwk       mixed 24     2:12:1 250000   200000      1 10g,broa none                 
-node235           1 bluemoon*       mixed 24     2:12:1 250000   200000      1 10g,broa none                 
-node235           1    bigmem       mixed 24     2:12:1 250000   200000      1 10g,broa none                 
-node235           1     short       mixed 24     2:12:1 250000   200000      1 10g,broa none                 
-node236           1 bluemoon*       mixed 24     2:12:1 250000   200000      1 10g,broa none                 
-node236           1    bigmem       mixed 24     2:12:1 250000   200000      1 10g,broa none                 
-node236           1     short       mixed 24     2:12:1 250000   200000      1 10g,broa none                 
-node237           1 bluemoon*       mixed 24     2:12:1 250000   200000      1 10g,broa none                 
-node237           1    bigmem       mixed 24     2:12:1 250000   200000      1 10g,broa none                 
-node237           1     short       mixed 24     2:12:1 250000   200000      1 10g,broa none                 
-node238           1 bluemoon*       mixed 24     2:12:1 250000   200000      1 10g,broa none                 
-node238           1    bigmem       mixed 24     2:12:1 250000   200000      1 10g,broa none                 
-node238           1     short       mixed 24     2:12:1 250000   200000      1 10g,broa none                 
-node239           1 bluemoon*       mixed 24     2:12:1 250000   200000      1 10g,broa none                 
-node239           1    bigmem       mixed 24     2:12:1 250000   200000      1 10g,broa none                 
-node239           1     short       mixed 24     2:12:1 250000   200000      1 10g,broa none                 
-node250           1 bluemoon*   allocated 40     2:20:1  92000   100000      1 10g,casc none                 
-node250           1    bigmem   allocated 40     2:20:1  92000   100000      1 10g,casc none                 
-node250           1     short   allocated 40     2:20:1  92000   100000      1 10g,casc none                 
-node251           1 bluemoon*   allocated 40     2:20:1  92000   100000      1 10g,casc none                 
-node251           1    bigmem   allocated 40     2:20:1  92000   100000      1 10g,casc none                 
-node251           1     short   allocated 40     2:20:1  92000   100000      1 10g,casc none                 
-node252           1 bluemoon*   allocated 40     2:20:1  92000   100000      1 10g,casc none                 
-node252           1    bigmem   allocated 40     2:20:1  92000   100000      1 10g,casc none                 
-node252           1     short   allocated 40     2:20:1  92000   100000      1 10g,casc none                 
-node253           1 bluemoon*   allocated 40     2:20:1  92000   100000      1 10g,casc none                 
-node253           1    bigmem   allocated 40     2:20:1  92000   100000      1 10g,casc none                 
-node253           1     short   allocated 40     2:20:1  92000   100000      1 10g,casc none                 
-node254           1 bluemoon*   allocated 40     2:20:1  92000   100000      1 10g,casc none                 
-node254           1    bigmem   allocated 40     2:20:1  92000   100000      1 10g,casc none                 
-node254           1     short   allocated 40     2:20:1  92000   100000      1 10g,casc none                 
-node255           1 bluemoon*   allocated 40     2:20:1  92000   100000      1 10g,casc none                 
-node255           1    bigmem   allocated 40     2:20:1  92000   100000      1 10g,casc none                 
-node255           1     short   allocated 40     2:20:1  92000   100000      1 10g,casc none                 
-node256           1 bluemoon*       mixed 40     2:20:1  92000   100000      1 10g,casc none                 
-node256           1    bigmem       mixed 40     2:20:1  92000   100000      1 10g,casc none                 
-node256           1     short       mixed 40     2:20:1  92000   100000      1 10g,casc none                 
-node257           1 bluemoon*       mixed 40     2:20:1  92000   100000      1 10g,casc none                 
-node257           1    bigmem       mixed 40     2:20:1  92000   100000      1 10g,casc none                 
-node257           1     short       mixed 40     2:20:1  92000   100000      1 10g,casc none                 
-node258           1 bluemoon*       mixed 40     2:20:1  92000   100000      1 10g,casc none                 
-node258           1    bigmem       mixed 40     2:20:1  92000   100000      1 10g,casc none                 
-node258           1     short       mixed 40     2:20:1  92000   100000      1 10g,casc none                 
-node400           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node400           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node401           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node401           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node402           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node402           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node403           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node403           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node404           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node404           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node405           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node405           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node406           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node406           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node407           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node407           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node408           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node408           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node409           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node409           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node410           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node410           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node411           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node411           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node412           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node412           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node413           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node413           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node414           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node414           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node415           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node415           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node416           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node416           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node417           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node417           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node419           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node419           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node420           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node420           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node421           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node421           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node422           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node422           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node423           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node423           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node424           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node424           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node425           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node425           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node426           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node426           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node427           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node427           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node428           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node428           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node429           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node429           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node430           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node430           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node431           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node431           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node432           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node432           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node434           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node434           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node435           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node435           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node436           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node436           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node437           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node437           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node438           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node438           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node439           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node439           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node441           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node441           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node442           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node442           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node443           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node443           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node444           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node444           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node445           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node445           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node446           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node446           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node448           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node448           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node449           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node449           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node450           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node450           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node451           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node451           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node452           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node452           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node453           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node453           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node454           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node454           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node455           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node455           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node456           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node456           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node457           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node457           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node458           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node458           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node459           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node459           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node460           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node460           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node461           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node461           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node462           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node462           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node463           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node463           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node464           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node464           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node465           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node465           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node466           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node466           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node467           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node467           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node468           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node468           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node469           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node469           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node470           1      week       mixed 12      2:6:1  20000    10000      1 westmere none                 
-node470           1 bluemoon*       mixed 12      2:6:1  20000    10000      1 westmere none                 
-node470           1     short       mixed 12      2:6:1  20000    10000      1 westmere none                 
-node471           1      week       mixed 12      2:6:1  20000    10000      1 westmere none                 
-node471           1 bluemoon*       mixed 12      2:6:1  20000    10000      1 westmere none                 
-node471           1     short       mixed 12      2:6:1  20000    10000      1 westmere none                 
-node472           1      week       mixed 12      2:6:1  20000    10000      1 westmere none                 
-node472           1 bluemoon*       mixed 12      2:6:1  20000    10000      1 westmere none                 
-node472           1     short       mixed 12      2:6:1  20000    10000      1 westmere none                 
-node473           1      week       mixed 12      2:6:1  20000    10000      1 westmere none                 
-node473           1 bluemoon*       mixed 12      2:6:1  20000    10000      1 westmere none                 
-node473           1     short       mixed 12      2:6:1  20000    10000      1 westmere none                 
-node474           1      week       mixed 12      2:6:1  20000    10000      1 westmere none                 
-node474           1 bluemoon*       mixed 12      2:6:1  20000    10000      1 westmere none                 
-node474           1     short       mixed 12      2:6:1  20000    10000      1 westmere none                 
-node475           1      week       mixed 12      2:6:1  20000    10000      1 westmere none                 
-node475           1 bluemoon*       mixed 12      2:6:1  20000    10000      1 westmere none                 
-node475           1     short       mixed 12      2:6:1  20000    10000      1 westmere none                 
-node476           1      week       mixed 12      2:6:1  20000    10000      1 westmere none                 
-node476           1 bluemoon*       mixed 12      2:6:1  20000    10000      1 westmere none                 
-node476           1     short       mixed 12      2:6:1  20000    10000      1 westmere none                 
-node477           1      week       mixed 12      2:6:1  20000    10000      1 westmere none                 
-node477           1 bluemoon*       mixed 12      2:6:1  20000    10000      1 westmere none                 
-node477           1     short       mixed 12      2:6:1  20000    10000      1 westmere none                 
-node478           1      week       mixed 12      2:6:1  20000    10000      1 westmere none                 
-node478           1 bluemoon*       mixed 12      2:6:1  20000    10000      1 westmere none                 
-node478           1     short       mixed 12      2:6:1  20000    10000      1 westmere none                 
-node479           1      week       mixed 12      2:6:1  20000    10000      1 westmere none                 
-node479           1 bluemoon*       mixed 12      2:6:1  20000    10000      1 westmere none                 
-node479           1     short       mixed 12      2:6:1  20000    10000      1 westmere none                 
-node480           1      week       mixed 12      2:6:1  20000    10000      1 westmere none                 
-node480           1 bluemoon*       mixed 12      2:6:1  20000    10000      1 westmere none                 
-node480           1     short       mixed 12      2:6:1  20000    10000      1 westmere none                 
-node481           1      week       mixed 12      2:6:1  20000    10000      1 westmere none                 
-node481           1 bluemoon*       mixed 12      2:6:1  20000    10000      1 westmere none                 
-node481           1     short       mixed 12      2:6:1  20000    10000      1 westmere none                 
-node482           1      week       mixed 12      2:6:1  20000    10000      1 westmere none                 
-node482           1 bluemoon*       mixed 12      2:6:1  20000    10000      1 westmere none                 
-node482           1     short       mixed 12      2:6:1  20000    10000      1 westmere none                 
-node483           1      week   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node483           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node483           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node484           1      week   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node484           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node484           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node485           1      week       mixed 12      2:6:1  20000    10000      1 westmere none                 
-node485           1 bluemoon*       mixed 12      2:6:1  20000    10000      1 westmere none                 
-node485           1     short       mixed 12      2:6:1  20000    10000      1 westmere none                 
-node486           1      week       mixed 12      2:6:1  20000    10000      1 westmere none                 
-node486           1 bluemoon*       mixed 12      2:6:1  20000    10000      1 westmere none                 
-node486           1     short       mixed 12      2:6:1  20000    10000      1 westmere none                 
-node487           1      week   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node487           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node487           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node488           1      week       mixed 12      2:6:1  20000    10000      1 westmere none                 
-node488           1 bluemoon*       mixed 12      2:6:1  20000    10000      1 westmere none                 
-node488           1     short       mixed 12      2:6:1  20000    10000      1 westmere none                 
-node489           1      week       mixed 12      2:6:1  20000    10000      1 westmere none                 
-node489           1 bluemoon*       mixed 12      2:6:1  20000    10000      1 westmere none                 
-node489           1     short       mixed 12      2:6:1  20000    10000      1 westmere none                 
-node490           1      week       mixed 12      2:6:1  20000    10000      1 westmere none                 
-node490           1 bluemoon*       mixed 12      2:6:1  20000    10000      1 westmere none                 
-node490           1     short       mixed 12      2:6:1  20000    10000      1 westmere none                 
-node491           1      week   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node491           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node491           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node492           1      week       mixed 12      2:6:1  20000    10000      1 westmere none                 
-node492           1 bluemoon*       mixed 12      2:6:1  20000    10000      1 westmere none                 
-node492           1     short       mixed 12      2:6:1  20000    10000      1 westmere none                 
-node493           1      week       mixed 12      2:6:1  20000    10000      1 westmere none                 
-node493           1 bluemoon*       mixed 12      2:6:1  20000    10000      1 westmere none                 
-node493           1     short       mixed 12      2:6:1  20000    10000      1 westmere none                 
-node494           1      week   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node494           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node494           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node495           1      week       mixed 12      2:6:1  20000    10000      1 westmere none                 
-node495           1 bluemoon*       mixed 12      2:6:1  20000    10000      1 westmere none                 
-node495           1     short       mixed 12      2:6:1  20000    10000      1 westmere none                 
-node496           1      week   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node496           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node496           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node497           1      week   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node497           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node497           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node498           1      week   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node498           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node498           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node499           1      week   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node499           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node499           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node500           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node500           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node501           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node501           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node502           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node502           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node503           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node503           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node504           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node504           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node505           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node505           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node506           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node506           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node507           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node507           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node508           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node508           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node509           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node509           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node510           1      week   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node510           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node510           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node511           1      week       mixed 12      2:6:1  20000    10000      1 westmere none                 
-node511           1 bluemoon*       mixed 12      2:6:1  20000    10000      1 westmere none                 
-node511           1     short       mixed 12      2:6:1  20000    10000      1 westmere none                 
-node512           1      week   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node512           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node512           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node513           1      week   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node513           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node513           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node514           1      week   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node514           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node514           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node515           1      week   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node515           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node515           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node516           1      week   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node516           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node516           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node517           1      week   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node517           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node517           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node518           1      week   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node518           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node518           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node519           1      week   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node519           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node519           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node520           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node520           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node521           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node521           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node522           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node522           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node523           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node523           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node524           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node524           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node525           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node525           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node526           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node526           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node527           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node527           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node528           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node528           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node529           1 bluemoon*   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node529           1     short   allocated 12      2:6:1  20000    10000      1 westmere none                 
-node531           1        ib   allocated 12      2:6:1  24000    10000      2 ib,sandy none                 
-node531           1     short   allocated 12      2:6:1  24000    10000      2 ib,sandy none                 
-node532           1        ib   allocated 12      2:6:1  24000    10000      2 ib,sandy none                 
-node532           1     short   allocated 12      2:6:1  24000    10000      2 ib,sandy none                 
-node533           1        ib   allocated 12      2:6:1  24000    10000      2 ib,sandy none                 
-node533           1     short   allocated 12      2:6:1  24000    10000      2 ib,sandy none                 
-node534           1        ib   allocated 12      2:6:1  24000    10000      2 ib,sandy none                 
-node534           1     short   allocated 12      2:6:1  24000    10000      2 ib,sandy none                 
-node535           1        ib   allocated 12      2:6:1  24000    10000      2 ib,sandy none                 
-node535           1     short   allocated 12      2:6:1  24000    10000      2 ib,sandy none                 
-node536           1        ib   allocated 12      2:6:1  24000    10000      2 ib,sandy none                 
-node536           1     short   allocated 12      2:6:1  24000    10000      2 ib,sandy none                 
-node537           1        ib   allocated 12      2:6:1  24000    10000      2 ib,sandy none                 
-node537           1     short   allocated 12      2:6:1  24000    10000      2 ib,sandy none                 
-node538           1        ib   allocated 12      2:6:1  24000    10000      2 ib,sandy none                 
-node538           1     short   allocated 12      2:6:1  24000    10000      2 ib,sandy none                 
-node539           1        ib   allocated 12      2:6:1  24000    10000      2 ib,sandy none                 
-node539           1     short   allocated 12      2:6:1  24000    10000      2 ib,sandy none                 
-node540           1        ib   allocated 12      2:6:1  24000    10000      2 ib,sandy none                 
-node540           1     short   allocated 12      2:6:1  24000    10000      2 ib,sandy none                 
-node541           1        ib   allocated 12      2:6:1  24000    10000      2 ib,sandy none                 
-node541           1     short   allocated 12      2:6:1  24000    10000      2 ib,sandy none                 
-node542           1        ib   allocated 12      2:6:1  24000    10000      2 ib,sandy none                 
-node542           1     short   allocated 12      2:6:1  24000    10000      2 ib,sandy none                 
-node543           1        ib   allocated 12      2:6:1  24000    10000      2 ib,sandy none                 
-node543           1     short   allocated 12      2:6:1  24000    10000      2 ib,sandy none                 
-node544           1        ib   allocated 12      2:6:1  24000    10000      2 ib,sandy none                 
-node544           1     short   allocated 12      2:6:1  24000    10000      2 ib,sandy none                 
-node545           1        ib   allocated 12      2:6:1  24000    10000      2 ib,sandy none                 
-node545           1     short   allocated 12      2:6:1  24000    10000      2 ib,sandy none                 
-node546           1        ib   allocated 12      2:6:1  24000    10000      2 ib,sandy none                 
-node546           1     short   allocated 12      2:6:1  24000    10000      2 ib,sandy none                 
-node547           1        ib   allocated 12      2:6:1  24000    10000      2 ib,sandy none                 
-node547           1     short   allocated 12      2:6:1  24000    10000      2 ib,sandy none                 
-node548           1        ib   allocated 12      2:6:1  24000    10000      2 ib,sandy none                 
-node548           1     short   allocated 12      2:6:1  24000    10000      2 ib,sandy none                 
-node549           1        ib   allocated 12      2:6:1  24000    10000      2 ib,sandy none                 
-node549           1     short   allocated 12      2:6:1  24000    10000      2 ib,sandy none                 
-node550           1        ib   allocated 12      2:6:1  24000    10000      2 ib,sandy none                 
-node550           1     short   allocated 12      2:6:1  24000    10000      2 ib,sandy none                 
-node551           1        ib   allocated 12      2:6:1  24000    10000      2 ib,sandy none                 
-node551           1     short   allocated 12      2:6:1  24000    10000      2 ib,sandy none                 
-shared3           1  bigmemwk       mixed 16      2:8:1 490000   100000      1 westmere none                 
-shared3           1    bigmem       mixed 16      2:8:1 490000   100000      1 westmere none                 
-shared3           1 bluemoon*       mixed 16      2:8:1 490000   100000      1 westmere none                 
-shared3           1     short       mixed 16      2:8:1 490000   100000      1 westmere none                 
-shared4           1    bigmem       mixed 24     2:12:1 100000    40000      1 broadwel none                 
-shared4           1     short       mixed 24     2:12:1 100000    40000      1 broadwel none                 
-shared5           1  bigmemwk       mixed 24     2:12:1 100000    40000      1 broadwel none                 
-shared5           1    bigmem       mixed 24     2:12:1 100000    40000      1 broadwel none                 
-shared5           1     short       mixed 24     2:12:1 100000    40000      1 broadwel none                 
+PARTITION           NODELIST            CPUS                GRES                GRES_USED           MEMORY              
+bdgpu               bd-gpunode01        48                  gpu:8               gpu:8               512000              
+bdgpu               bd-gpunode02        48                  gpu:8               gpu:8               512000              
+bdgpu               bd-gpunode03        48                  gpu:8               gpu:8               512000              
+bdgpu               bd-gpunode04        48                  gpu:8               gpu:8               512000              
+bdgpu               bd-gpunode05        48                  gpu:8               gpu:8               512000              
+bdgpu               bd-gpunode06        48                  gpu:8               gpu:8               512000              
+ib                  node100             20                  (null)              gpu:0               62000               
+short               node100             20                  (null)              gpu:0               62000               
+ib                  node101             20                  (null)              gpu:0               62000               
+short               node101             20                  (null)              gpu:0               62000               
+ib                  node102             20                  (null)              gpu:0               62000               
+short               node102             20                  (null)              gpu:0               62000               
+ib                  node103             20                  (null)              gpu:0               62000               
+short               node103             20                  (null)              gpu:0               62000               
+ib                  node104             20                  (null)              gpu:0               62000               
+short               node104             20                  (null)              gpu:0               62000               
+ib                  node105             20                  (null)              gpu:0               62000               
+short               node105             20                  (null)              gpu:0               62000               
+ib                  node106             20                  (null)              gpu:0               62000               
+short               node106             20                  (null)              gpu:0               62000               
+ib                  node107             20                  (null)              gpu:0               62000               
+short               node107             20                  (null)              gpu:0               62000               
+ib                  node108             20                  (null)              gpu:0               62000               
+short               node108             20                  (null)              gpu:0               62000               
+ib                  node109             20                  (null)              gpu:0               62000               
+short               node109             20                  (null)              gpu:0               62000               
+ib                  node110             20                  (null)              gpu:0               62000               
+short               node110             20                  (null)              gpu:0               62000               
+ib                  node111             20                  (null)              gpu:0               62000               
+short               node111             20                  (null)              gpu:0               62000               
+ib                  node112             20                  (null)              gpu:0               62000               
+short               node112             20                  (null)              gpu:0               62000               
+ib                  node113             20                  (null)              gpu:0               62000               
+short               node113             20                  (null)              gpu:0               62000               
+ib                  node114             20                  (null)              gpu:0               62000               
+short               node114             20                  (null)              gpu:0               62000               
+ib                  node115             20                  (null)              gpu:0               62000               
+short               node115             20                  (null)              gpu:0               62000               
+ib                  node116             20                  (null)              gpu:0               62000               
+short               node116             20                  (null)              gpu:0               62000               
+ib                  node117             20                  (null)              gpu:0               62000               
+short               node117             20                  (null)              gpu:0               62000               
+ib                  node118             20                  (null)              gpu:0               62000               
+short               node118             20                  (null)              gpu:0               62000               
+ib                  node119             20                  (null)              gpu:0               62000               
+short               node119             20                  (null)              gpu:0               62000               
+ib                  node120             20                  (null)              gpu:0               62000               
+short               node120             20                  (null)              gpu:0               62000               
+ib                  node121             20                  (null)              gpu:0               62000               
+short               node121             20                  (null)              gpu:0               62000               
+ib                  node122             20                  (null)              gpu:0               62000               
+short               node122             20                  (null)              gpu:0               62000               
+ib                  node123             20                  (null)              gpu:0               62000               
+short               node123             20                  (null)              gpu:0               62000               
+ib                  node124             20                  (null)              gpu:0               62000               
+short               node124             20                  (null)              gpu:0               62000               
+ib                  node125             20                  (null)              gpu:0               62000               
+short               node125             20                  (null)              gpu:0               62000               
+ib                  node126             20                  (null)              gpu:0               62000               
+short               node126             20                  (null)              gpu:0               62000               
+ib                  node127             20                  (null)              gpu:0               62000               
+short               node127             20                  (null)              gpu:0               62000               
+ib                  node128             20                  (null)              gpu:0               62000               
+short               node128             20                  (null)              gpu:0               62000               
+ib                  node129             20                  (null)              gpu:0               62000               
+short               node129             20                  (null)              gpu:0               62000               
+ib                  node130             20                  (null)              gpu:0               62000               
+short               node130             20                  (null)              gpu:0               62000               
+ib                  node131             20                  (null)              gpu:0               62000               
+short               node131             20                  (null)              gpu:0               62000               
+ib                  node132             20                  (null)              gpu:0               62000               
+short               node132             20                  (null)              gpu:0               62000               
+ib                  node133             20                  (null)              gpu:0               62000               
+short               node133             20                  (null)              gpu:0               62000               
+ib                  node134             20                  (null)              gpu:0               62000               
+short               node134             20                  (null)              gpu:0               62000               
+ib                  node135             20                  (null)              gpu:0               62000               
+short               node135             20                  (null)              gpu:0               62000               
+ib                  node136             20                  (null)              gpu:0               62000               
+short               node136             20                  (null)              gpu:0               62000               
+ib                  node137             20                  (null)              gpu:0               62000               
+short               node137             20                  (null)              gpu:0               62000               
+ib                  node138             20                  (null)              gpu:0               62000               
+short               node138             20                  (null)              gpu:0               62000               
+ib                  node139             20                  (null)              gpu:0               62000               
+short               node139             20                  (null)              gpu:0               62000               
+bigmem              node140             20                  (null)              gpu:0               250000              
+bigmemwk            node140             20                  (null)              gpu:0               250000              
+short               node140             20                  (null)              gpu:0               250000              
+bigmem              node141             20                  (null)              gpu:0               250000              
+bigmemwk            node141             20                  (null)              gpu:0               250000              
+short               node141             20                  (null)              gpu:0               250000              
+bigmem              node142             20                  (null)              gpu:0               250000              
+bigmemwk            node142             20                  (null)              gpu:0               250000              
+short               node142             20                  (null)              gpu:0               250000              
+bluemoon*           node200             24                  (null)              gpu:0               62000               
+bigmem              node200             24                  (null)              gpu:0               62000               
+short               node200             24                  (null)              gpu:0               62000               
+bluemoon*           node201             24                  (null)              gpu:0               62000               
+bigmem              node201             24                  (null)              gpu:0               62000               
+short               node201             24                  (null)              gpu:0               62000               
+bluemoon*           node202             24                  (null)              gpu:0               62000               
+bigmem              node202             24                  (null)              gpu:0               62000               
+short               node202             24                  (null)              gpu:0               62000               
+bluemoon*           node203             24                  (null)              gpu:0               62000               
+bigmem              node203             24                  (null)              gpu:0               62000               
+short               node203             24                  (null)              gpu:0               62000               
+bluemoon*           node204             24                  (null)              gpu:0               62000               
+bigmem              node204             24                  (null)              gpu:0               62000               
+short               node204             24                  (null)              gpu:0               62000               
+bluemoon*           node205             24                  (null)              gpu:0               62000               
+bigmem              node205             24                  (null)              gpu:0               62000               
+short               node205             24                  (null)              gpu:0               62000               
+bluemoon*           node206             24                  (null)              gpu:0               62000               
+bigmem              node206             24                  (null)              gpu:0               62000               
+short               node206             24                  (null)              gpu:0               62000               
+bluemoon*           node207             24                  (null)              gpu:0               62000               
+bigmem              node207             24                  (null)              gpu:0               62000               
+short               node207             24                  (null)              gpu:0               62000               
+bluemoon*           node208             24                  (null)              gpu:0               62000               
+bigmem              node208             24                  (null)              gpu:0               62000               
+short               node208             24                  (null)              gpu:0               62000               
+bluemoon*           node209             24                  (null)              gpu:0               62000               
+bigmem              node209             24                  (null)              gpu:0               62000               
+short               node209             24                  (null)              gpu:0               62000               
+bluemoon*           node210             24                  (null)              gpu:0               62000               
+bigmem              node210             24                  (null)              gpu:0               62000               
+short               node210             24                  (null)              gpu:0               62000               
+week                node211             24                  (null)              gpu:0               62000               
+bluemoon*           node211             24                  (null)              gpu:0               62000               
+bigmem              node211             24                  (null)              gpu:0               62000               
+short               node211             24                  (null)              gpu:0               62000               
+week                node212             24                  (null)              gpu:0               62000               
+bluemoon*           node212             24                  (null)              gpu:0               62000               
+bigmem              node212             24                  (null)              gpu:0               62000               
+short               node212             24                  (null)              gpu:0               62000               
+week                node213             24                  (null)              gpu:0               62000               
+bluemoon*           node213             24                  (null)              gpu:0               62000               
+bigmem              node213             24                  (null)              gpu:0               62000               
+short               node213             24                  (null)              gpu:0               62000               
+week                node214             24                  (null)              gpu:0               62000               
+bluemoon*           node214             24                  (null)              gpu:0               62000               
+bigmem              node214             24                  (null)              gpu:0               62000               
+short               node214             24                  (null)              gpu:0               62000               
+week                node215             24                  (null)              gpu:0               62000               
+bluemoon*           node215             24                  (null)              gpu:0               62000               
+bigmem              node215             24                  (null)              gpu:0               62000               
+short               node215             24                  (null)              gpu:0               62000               
+bluemoon*           node216             24                  (null)              gpu:0               62000               
+bigmem              node216             24                  (null)              gpu:0               62000               
+short               node216             24                  (null)              gpu:0               62000               
+bluemoon*           node217             24                  (null)              gpu:0               62000               
+bigmem              node217             24                  (null)              gpu:0               62000               
+short               node217             24                  (null)              gpu:0               62000               
+bluemoon*           node218             24                  (null)              gpu:0               62000               
+bigmem              node218             24                  (null)              gpu:0               62000               
+short               node218             24                  (null)              gpu:0               62000               
+bluemoon*           node219             24                  (null)              gpu:0               62000               
+bigmem              node219             24                  (null)              gpu:0               62000               
+short               node219             24                  (null)              gpu:0               62000               
+bluemoon*           node220             24                  (null)              gpu:0               62000               
+bigmem              node220             24                  (null)              gpu:0               62000               
+short               node220             24                  (null)              gpu:0               62000               
+bluemoon*           node221             24                  (null)              gpu:0               62000               
+bigmem              node221             24                  (null)              gpu:0               62000               
+short               node221             24                  (null)              gpu:0               62000               
+bluemoon*           node222             24                  (null)              gpu:0               62000               
+bigmem              node222             24                  (null)              gpu:0               62000               
+short               node222             24                  (null)              gpu:0               62000               
+bluemoon*           node223             24                  (null)              gpu:0               62000               
+bigmem              node223             24                  (null)              gpu:0               62000               
+short               node223             24                  (null)              gpu:0               62000               
+bluemoon*           node224             24                  (null)              gpu:0               62000               
+bigmem              node224             24                  (null)              gpu:0               62000               
+short               node224             24                  (null)              gpu:0               62000               
+bluemoon*           node225             24                  (null)              gpu:0               62000               
+bigmem              node225             24                  (null)              gpu:0               62000               
+short               node225             24                  (null)              gpu:0               62000               
+bluemoon*           node226             24                  (null)              gpu:0               62000               
+bigmem              node226             24                  (null)              gpu:0               62000               
+short               node226             24                  (null)              gpu:0               62000               
+bluemoon*           node227             24                  (null)              gpu:0               62000               
+bigmem              node227             24                  (null)              gpu:0               62000               
+short               node227             24                  (null)              gpu:0               62000               
+bluemoon*           node228             24                  (null)              gpu:0               62000               
+bigmem              node228             24                  (null)              gpu:0               62000               
+short               node228             24                  (null)              gpu:0               62000               
+bluemoon*           node229             24                  (null)              gpu:0               62000               
+bigmem              node229             24                  (null)              gpu:0               62000               
+short               node229             24                  (null)              gpu:0               62000               
+bigmemwk            node230             24                  (null)              gpu:0               62000               
+bluemoon*           node230             24                  (null)              gpu:0               62000               
+bigmem              node230             24                  (null)              gpu:0               62000               
+short               node230             24                  (null)              gpu:0               62000               
+bigmemwk            node231             24                  (null)              gpu:0               62000               
+bluemoon*           node231             24                  (null)              gpu:0               62000               
+bigmem              node231             24                  (null)              gpu:0               62000               
+short               node231             24                  (null)              gpu:0               62000               
+bigmemwk            node232             24                  (null)              gpu:0               250000              
+bluemoon*           node232             24                  (null)              gpu:0               250000              
+bigmem              node232             24                  (null)              gpu:0               250000              
+short               node232             24                  (null)              gpu:0               250000              
+bigmemwk            node233             24                  (null)              gpu:0               250000              
+bluemoon*           node233             24                  (null)              gpu:0               250000              
+bigmem              node233             24                  (null)              gpu:0               250000              
+short               node233             24                  (null)              gpu:0               250000              
+bigmemwk            node234             24                  (null)              gpu:0               250000              
+bluemoon*           node234             24                  (null)              gpu:0               250000              
+bigmem              node234             24                  (null)              gpu:0               250000              
+short               node234             24                  (null)              gpu:0               250000              
+bigmemwk            node235             24                  (null)              gpu:0               250000              
+bluemoon*           node235             24                  (null)              gpu:0               250000              
+bigmem              node235             24                  (null)              gpu:0               250000              
+short               node235             24                  (null)              gpu:0               250000              
+bluemoon*           node236             24                  (null)              gpu:0               250000              
+bigmem              node236             24                  (null)              gpu:0               250000              
+short               node236             24                  (null)              gpu:0               250000              
+bluemoon*           node237             24                  (null)              gpu:0               250000              
+bigmem              node237             24                  (null)              gpu:0               250000              
+short               node237             24                  (null)              gpu:0               250000              
+bluemoon*           node238             24                  (null)              gpu:0               250000              
+bigmem              node238             24                  (null)              gpu:0               250000              
+short               node238             24                  (null)              gpu:0               250000              
+bluemoon*           node239             24                  (null)              gpu:0               250000              
+bigmem              node239             24                  (null)              gpu:0               250000              
+short               node239             24                  (null)              gpu:0               250000              
+bluemoon*           node250             40                  (null)              gpu:0               92000               
+bigmem              node250             40                  (null)              gpu:0               92000               
+short               node250             40                  (null)              gpu:0               92000               
+bluemoon*           node251             40                  (null)              gpu:0               92000               
+bigmem              node251             40                  (null)              gpu:0               92000               
+short               node251             40                  (null)              gpu:0               92000               
+bluemoon*           node252             40                  (null)              gpu:0               92000               
+bigmem              node252             40                  (null)              gpu:0               92000               
+short               node252             40                  (null)              gpu:0               92000               
+bluemoon*           node253             40                  (null)              gpu:0               92000               
+bigmem              node253             40                  (null)              gpu:0               92000               
+short               node253             40                  (null)              gpu:0               92000               
+bluemoon*           node254             40                  (null)              gpu:0               92000               
+bigmem              node254             40                  (null)              gpu:0               92000               
+short               node254             40                  (null)              gpu:0               92000               
+bluemoon*           node255             40                  (null)              gpu:0               92000               
+bigmem              node255             40                  (null)              gpu:0               92000               
+short               node255             40                  (null)              gpu:0               92000               
+bluemoon*           node256             40                  (null)              gpu:0               92000               
+bigmem              node256             40                  (null)              gpu:0               92000               
+short               node256             40                  (null)              gpu:0               92000               
+bluemoon*           node257             40                  (null)              gpu:0               92000               
+bigmem              node257             40                  (null)              gpu:0               92000               
+short               node257             40                  (null)              gpu:0               92000               
+bluemoon*           node258             40                  (null)              gpu:0               92000               
+bigmem              node258             40                  (null)              gpu:0               92000               
+short               node258             40                  (null)              gpu:0               92000               
+bluemoon*           node400             12                  (null)              gpu:0               20000               
+short               node400             12                  (null)              gpu:0               20000               
+bluemoon*           node401             12                  (null)              gpu:0               20000               
+short               node401             12                  (null)              gpu:0               20000               
+bluemoon*           node402             12                  (null)              gpu:0               20000               
+short               node402             12                  (null)              gpu:0               20000               
+bluemoon*           node403             12                  (null)              gpu:0               20000               
+short               node403             12                  (null)              gpu:0               20000               
+bluemoon*           node404             12                  (null)              gpu:0               20000               
+short               node404             12                  (null)              gpu:0               20000               
+bluemoon*           node405             12                  (null)              gpu:0               20000               
+short               node405             12                  (null)              gpu:0               20000               
+bluemoon*           node406             12                  (null)              gpu:0               20000               
+short               node406             12                  (null)              gpu:0               20000               
+bluemoon*           node407             12                  (null)              gpu:0               20000               
+short               node407             12                  (null)              gpu:0               20000               
+bluemoon*           node408             12                  (null)              gpu:0               20000               
+short               node408             12                  (null)              gpu:0               20000               
+bluemoon*           node409             12                  (null)              gpu:0               20000               
+short               node409             12                  (null)              gpu:0               20000               
+bluemoon*           node410             12                  (null)              gpu:0               20000               
+short               node410             12                  (null)              gpu:0               20000               
+bluemoon*           node411             12                  (null)              gpu:0               20000               
+short               node411             12                  (null)              gpu:0               20000               
+bluemoon*           node412             12                  (null)              gpu:0               20000               
+short               node412             12                  (null)              gpu:0               20000               
+bluemoon*           node413             12                  (null)              gpu:0               20000               
+short               node413             12                  (null)              gpu:0               20000               
+bluemoon*           node414             12                  (null)              gpu:0               20000               
+short               node414             12                  (null)              gpu:0               20000               
+bluemoon*           node415             12                  (null)              gpu:0               20000               
+short               node415             12                  (null)              gpu:0               20000               
+bluemoon*           node416             12                  (null)              gpu:0               20000               
+short               node416             12                  (null)              gpu:0               20000               
+bluemoon*           node417             12                  (null)              gpu:0               20000               
+short               node417             12                  (null)              gpu:0               20000               
+bluemoon*           node419             12                  (null)              gpu:0               20000               
+short               node419             12                  (null)              gpu:0               20000               
+bluemoon*           node420             12                  (null)              gpu:0               20000               
+short               node420             12                  (null)              gpu:0               20000               
+bluemoon*           node421             12                  (null)              gpu:0               20000               
+short               node421             12                  (null)              gpu:0               20000               
+bluemoon*           node422             12                  (null)              gpu:0               20000               
+short               node422             12                  (null)              gpu:0               20000               
+bluemoon*           node423             12                  (null)              gpu:0               20000               
+short               node423             12                  (null)              gpu:0               20000               
+bluemoon*           node424             12                  (null)              gpu:0               20000               
+short               node424             12                  (null)              gpu:0               20000               
+bluemoon*           node425             12                  (null)              gpu:0               20000               
+short               node425             12                  (null)              gpu:0               20000               
+bluemoon*           node426             12                  (null)              gpu:0               20000               
+short               node426             12                  (null)              gpu:0               20000               
+bluemoon*           node427             12                  (null)              gpu:0               20000               
+short               node427             12                  (null)              gpu:0               20000               
+bluemoon*           node428             12                  (null)              gpu:0               20000               
+short               node428             12                  (null)              gpu:0               20000               
+bluemoon*           node429             12                  (null)              gpu:0               20000               
+short               node429             12                  (null)              gpu:0               20000               
+bluemoon*           node430             12                  (null)              gpu:0               20000               
+short               node430             12                  (null)              gpu:0               20000               
+bluemoon*           node431             12                  (null)              gpu:0               20000               
+short               node431             12                  (null)              gpu:0               20000               
+bluemoon*           node432             12                  (null)              gpu:0               20000               
+short               node432             12                  (null)              gpu:0               20000               
+bluemoon*           node434             12                  (null)              gpu:0               20000               
+short               node434             12                  (null)              gpu:0               20000               
+bluemoon*           node435             12                  (null)              gpu:0               20000               
+short               node435             12                  (null)              gpu:0               20000               
+bluemoon*           node436             12                  (null)              gpu:0               20000               
+short               node436             12                  (null)              gpu:0               20000               
+bluemoon*           node437             12                  (null)              gpu:0               20000               
+short               node437             12                  (null)              gpu:0               20000               
+bluemoon*           node438             12                  (null)              gpu:0               20000               
+short               node438             12                  (null)              gpu:0               20000               
+bluemoon*           node439             12                  (null)              gpu:0               20000               
+short               node439             12                  (null)              gpu:0               20000               
+bluemoon*           node441             12                  (null)              gpu:0               20000               
+short               node441             12                  (null)              gpu:0               20000               
+bluemoon*           node442             12                  (null)              gpu:0               20000               
+short               node442             12                  (null)              gpu:0               20000               
+bluemoon*           node443             12                  (null)              gpu:0               20000               
+short               node443             12                  (null)              gpu:0               20000               
+bluemoon*           node444             12                  (null)              gpu:0               20000               
+short               node444             12                  (null)              gpu:0               20000               
+bluemoon*           node445             12                  (null)              gpu:0               20000               
+short               node445             12                  (null)              gpu:0               20000               
+bluemoon*           node446             12                  (null)              gpu:0               20000               
+short               node446             12                  (null)              gpu:0               20000               
+bluemoon*           node448             12                  (null)              gpu:0               20000               
+short               node448             12                  (null)              gpu:0               20000               
+bluemoon*           node449             12                  (null)              gpu:0               20000               
+short               node449             12                  (null)              gpu:0               20000               
+bluemoon*           node450             12                  (null)              gpu:0               20000               
+short               node450             12                  (null)              gpu:0               20000               
+bluemoon*           node451             12                  (null)              gpu:0               20000               
+short               node451             12                  (null)              gpu:0               20000               
+bluemoon*           node452             12                  (null)              gpu:0               20000               
+short               node452             12                  (null)              gpu:0               20000               
+bluemoon*           node453             12                  (null)              gpu:0               20000               
+short               node453             12                  (null)              gpu:0               20000               
+bluemoon*           node454             12                  (null)              gpu:0               20000               
+short               node454             12                  (null)              gpu:0               20000               
+bluemoon*           node455             12                  (null)              gpu:0               20000               
+short               node455             12                  (null)              gpu:0               20000               
+bluemoon*           node456             12                  (null)              gpu:0               20000               
+short               node456             12                  (null)              gpu:0               20000               
+bluemoon*           node457             12                  (null)              gpu:0               20000               
+short               node457             12                  (null)              gpu:0               20000               
+bluemoon*           node458             12                  (null)              gpu:0               20000               
+short               node458             12                  (null)              gpu:0               20000               
+bluemoon*           node459             12                  (null)              gpu:0               20000               
+short               node459             12                  (null)              gpu:0               20000               
+bluemoon*           node460             12                  (null)              gpu:0               20000               
+short               node460             12                  (null)              gpu:0               20000               
+bluemoon*           node461             12                  (null)              gpu:0               20000               
+short               node461             12                  (null)              gpu:0               20000               
+bluemoon*           node462             12                  (null)              gpu:0               20000               
+short               node462             12                  (null)              gpu:0               20000               
+bluemoon*           node463             12                  (null)              gpu:0               20000               
+short               node463             12                  (null)              gpu:0               20000               
+bluemoon*           node464             12                  (null)              gpu:0               20000               
+short               node464             12                  (null)              gpu:0               20000               
+bluemoon*           node465             12                  (null)              gpu:0               20000               
+short               node465             12                  (null)              gpu:0               20000               
+bluemoon*           node466             12                  (null)              gpu:0               20000               
+short               node466             12                  (null)              gpu:0               20000               
+bluemoon*           node467             12                  (null)              gpu:0               20000               
+short               node467             12                  (null)              gpu:0               20000               
+bluemoon*           node468             12                  (null)              gpu:0               20000               
+short               node468             12                  (null)              gpu:0               20000               
+bluemoon*           node469             12                  (null)              gpu:0               20000               
+short               node469             12                  (null)              gpu:0               20000               
+week                node470             12                  (null)              gpu:0               20000               
+bluemoon*           node470             12                  (null)              gpu:0               20000               
+short               node470             12                  (null)              gpu:0               20000               
+week                node471             12                  (null)              gpu:0               20000               
+bluemoon*           node471             12                  (null)              gpu:0               20000               
+short               node471             12                  (null)              gpu:0               20000               
+week                node472             12                  (null)              gpu:0               20000               
+bluemoon*           node472             12                  (null)              gpu:0               20000               
+short               node472             12                  (null)              gpu:0               20000               
+week                node473             12                  (null)              gpu:0               20000               
+bluemoon*           node473             12                  (null)              gpu:0               20000               
+short               node473             12                  (null)              gpu:0               20000               
+week                node474             12                  (null)              gpu:0               20000               
+bluemoon*           node474             12                  (null)              gpu:0               20000               
+short               node474             12                  (null)              gpu:0               20000               
+week                node475             12                  (null)              gpu:0               20000               
+bluemoon*           node475             12                  (null)              gpu:0               20000               
+short               node475             12                  (null)              gpu:0               20000               
+week                node476             12                  (null)              gpu:0               20000               
+bluemoon*           node476             12                  (null)              gpu:0               20000               
+short               node476             12                  (null)              gpu:0               20000               
+week                node477             12                  (null)              gpu:0               20000               
+bluemoon*           node477             12                  (null)              gpu:0               20000               
+short               node477             12                  (null)              gpu:0               20000               
+week                node478             12                  (null)              gpu:0               20000               
+bluemoon*           node478             12                  (null)              gpu:0               20000               
+short               node478             12                  (null)              gpu:0               20000               
+week                node479             12                  (null)              gpu:0               20000               
+bluemoon*           node479             12                  (null)              gpu:0               20000               
+short               node479             12                  (null)              gpu:0               20000               
+week                node480             12                  (null)              gpu:0               20000               
+bluemoon*           node480             12                  (null)              gpu:0               20000               
+short               node480             12                  (null)              gpu:0               20000               
+week                node481             12                  (null)              gpu:0               20000               
+bluemoon*           node481             12                  (null)              gpu:0               20000               
+short               node481             12                  (null)              gpu:0               20000               
+week                node482             12                  (null)              gpu:0               20000               
+bluemoon*           node482             12                  (null)              gpu:0               20000               
+short               node482             12                  (null)              gpu:0               20000               
+week                node483             12                  (null)              gpu:0               20000               
+bluemoon*           node483             12                  (null)              gpu:0               20000               
+short               node483             12                  (null)              gpu:0               20000               
+week                node484             12                  (null)              gpu:0               20000               
+bluemoon*           node484             12                  (null)              gpu:0               20000               
+short               node484             12                  (null)              gpu:0               20000               
+week                node485             12                  (null)              gpu:0               20000               
+bluemoon*           node485             12                  (null)              gpu:0               20000               
+short               node485             12                  (null)              gpu:0               20000               
+week                node486             12                  (null)              gpu:0               20000               
+bluemoon*           node486             12                  (null)              gpu:0               20000               
+short               node486             12                  (null)              gpu:0               20000               
+week                node487             12                  (null)              gpu:0               20000               
+bluemoon*           node487             12                  (null)              gpu:0               20000               
+short               node487             12                  (null)              gpu:0               20000               
+week                node488             12                  (null)              gpu:0               20000               
+bluemoon*           node488             12                  (null)              gpu:0               20000               
+short               node488             12                  (null)              gpu:0               20000               
+week                node489             12                  (null)              gpu:0               20000               
+bluemoon*           node489             12                  (null)              gpu:0               20000               
+short               node489             12                  (null)              gpu:0               20000               
+week                node490             12                  (null)              gpu:0               20000               
+bluemoon*           node490             12                  (null)              gpu:0               20000               
+short               node490             12                  (null)              gpu:0               20000               
+week                node491             12                  (null)              gpu:0               20000               
+bluemoon*           node491             12                  (null)              gpu:0               20000               
+short               node491             12                  (null)              gpu:0               20000               
+week                node492             12                  (null)              gpu:0               20000               
+bluemoon*           node492             12                  (null)              gpu:0               20000               
+short               node492             12                  (null)              gpu:0               20000               
+week                node493             12                  (null)              gpu:0               20000               
+bluemoon*           node493             12                  (null)              gpu:0               20000               
+short               node493             12                  (null)              gpu:0               20000               
+week                node494             12                  (null)              gpu:0               20000               
+bluemoon*           node494             12                  (null)              gpu:0               20000               
+short               node494             12                  (null)              gpu:0               20000               
+week                node495             12                  (null)              gpu:0               20000               
+bluemoon*           node495             12                  (null)              gpu:0               20000               
+short               node495             12                  (null)              gpu:0               20000               
+week                node496             12                  (null)              gpu:0               20000               
+bluemoon*           node496             12                  (null)              gpu:0               20000               
+short               node496             12                  (null)              gpu:0               20000               
+week                node497             12                  (null)              gpu:0               20000               
+bluemoon*           node497             12                  (null)              gpu:0               20000               
+short               node497             12                  (null)              gpu:0               20000               
+week                node498             12                  (null)              gpu:0               20000               
+bluemoon*           node498             12                  (null)              gpu:0               20000               
+short               node498             12                  (null)              gpu:0               20000               
+week                node499             12                  (null)              gpu:0               20000               
+bluemoon*           node499             12                  (null)              gpu:0               20000               
+short               node499             12                  (null)              gpu:0               20000               
+bluemoon*           node500             12                  (null)              gpu:0               20000               
+short               node500             12                  (null)              gpu:0               20000               
+bluemoon*           node501             12                  (null)              gpu:0               20000               
+short               node501             12                  (null)              gpu:0               20000               
+bluemoon*           node502             12                  (null)              gpu:0               20000               
+short               node502             12                  (null)              gpu:0               20000               
+bluemoon*           node503             12                  (null)              gpu:0               20000               
+short               node503             12                  (null)              gpu:0               20000               
+bluemoon*           node504             12                  (null)              gpu:0               20000               
+short               node504             12                  (null)              gpu:0               20000               
+bluemoon*           node505             12                  (null)              gpu:0               20000               
+short               node505             12                  (null)              gpu:0               20000               
+bluemoon*           node506             12                  (null)              gpu:0               20000               
+short               node506             12                  (null)              gpu:0               20000               
+bluemoon*           node507             12                  (null)              gpu:0               20000               
+short               node507             12                  (null)              gpu:0               20000               
+bluemoon*           node508             12                  (null)              gpu:0               20000               
+short               node508             12                  (null)              gpu:0               20000               
+bluemoon*           node509             12                  (null)              gpu:0               20000               
+short               node509             12                  (null)              gpu:0               20000               
+week                node510             12                  (null)              gpu:0               20000               
+bluemoon*           node510             12                  (null)              gpu:0               20000               
+short               node510             12                  (null)              gpu:0               20000               
+week                node511             12                  (null)              gpu:0               20000               
+bluemoon*           node511             12                  (null)              gpu:0               20000               
+short               node511             12                  (null)              gpu:0               20000               
+week                node512             12                  (null)              gpu:0               20000               
+bluemoon*           node512             12                  (null)              gpu:0               20000               
+short               node512             12                  (null)              gpu:0               20000               
+week                node513             12                  (null)              gpu:0               20000               
+bluemoon*           node513             12                  (null)              gpu:0               20000               
+short               node513             12                  (null)              gpu:0               20000               
+week                node514             12                  (null)              gpu:0               20000               
+bluemoon*           node514             12                  (null)              gpu:0               20000               
+short               node514             12                  (null)              gpu:0               20000               
+week                node515             12                  (null)              gpu:0               20000               
+bluemoon*           node515             12                  (null)              gpu:0               20000               
+short               node515             12                  (null)              gpu:0               20000               
+week                node516             12                  (null)              gpu:0               20000               
+bluemoon*           node516             12                  (null)              gpu:0               20000               
+short               node516             12                  (null)              gpu:0               20000               
+week                node517             12                  (null)              gpu:0               20000               
+bluemoon*           node517             12                  (null)              gpu:0               20000               
+short               node517             12                  (null)              gpu:0               20000               
+week                node518             12                  (null)              gpu:0               20000               
+bluemoon*           node518             12                  (null)              gpu:0               20000               
+short               node518             12                  (null)              gpu:0               20000               
+week                node519             12                  (null)              gpu:0               20000               
+bluemoon*           node519             12                  (null)              gpu:0               20000               
+short               node519             12                  (null)              gpu:0               20000               
+bluemoon*           node520             12                  (null)              gpu:0               20000               
+short               node520             12                  (null)              gpu:0               20000               
+bluemoon*           node521             12                  (null)              gpu:0               20000               
+short               node521             12                  (null)              gpu:0               20000               
+bluemoon*           node522             12                  (null)              gpu:0               20000               
+short               node522             12                  (null)              gpu:0               20000               
+bluemoon*           node523             12                  (null)              gpu:0               20000               
+short               node523             12                  (null)              gpu:0               20000               
+bluemoon*           node524             12                  (null)              gpu:0               20000               
+short               node524             12                  (null)              gpu:0               20000               
+bluemoon*           node525             12                  (null)              gpu:0               20000               
+short               node525             12                  (null)              gpu:0               20000               
+bluemoon*           node526             12                  (null)              gpu:0               20000               
+short               node526             12                  (null)              gpu:0               20000               
+bluemoon*           node527             12                  (null)              gpu:0               20000               
+short               node527             12                  (null)              gpu:0               20000               
+bluemoon*           node528             12                  (null)              gpu:0               20000               
+short               node528             12                  (null)              gpu:0               20000               
+bluemoon*           node529             12                  (null)              gpu:0               20000               
+short               node529             12                  (null)              gpu:0               20000               
+ib                  node531             12                  (null)              gpu:0               24000               
+short               node531             12                  (null)              gpu:0               24000               
+ib                  node532             12                  (null)              gpu:0               24000               
+short               node532             12                  (null)              gpu:0               24000               
+ib                  node533             12                  (null)              gpu:0               24000               
+short               node533             12                  (null)              gpu:0               24000               
+ib                  node534             12                  (null)              gpu:0               24000               
+short               node534             12                  (null)              gpu:0               24000               
+ib                  node535             12                  (null)              gpu:0               24000               
+short               node535             12                  (null)              gpu:0               24000               
+ib                  node536             12                  (null)              gpu:0               24000               
+short               node536             12                  (null)              gpu:0               24000               
+ib                  node537             12                  (null)              gpu:0               24000               
+short               node537             12                  (null)              gpu:0               24000               
+ib                  node538             12                  (null)              gpu:0               24000               
+short               node538             12                  (null)              gpu:0               24000               
+ib                  node539             12                  (null)              gpu:0               24000               
+short               node539             12                  (null)              gpu:0               24000               
+ib                  node540             12                  (null)              gpu:0               24000               
+short               node540             12                  (null)              gpu:0               24000               
+ib                  node541             12                  (null)              gpu:0               24000               
+short               node541             12                  (null)              gpu:0               24000               
+ib                  node542             12                  (null)              gpu:0               24000               
+short               node542             12                  (null)              gpu:0               24000               
+ib                  node543             12                  (null)              gpu:0               24000               
+short               node543             12                  (null)              gpu:0               24000               
+ib                  node544             12                  (null)              gpu:0               24000               
+short               node544             12                  (null)              gpu:0               24000               
+ib                  node545             12                  (null)              gpu:0               24000               
+short               node545             12                  (null)              gpu:0               24000               
+ib                  node546             12                  (null)              gpu:0               24000               
+short               node546             12                  (null)              gpu:0               24000               
+ib                  node547             12                  (null)              gpu:0               24000               
+short               node547             12                  (null)              gpu:0               24000               
+ib                  node548             12                  (null)              gpu:0               24000               
+short               node548             12                  (null)              gpu:0               24000               
+ib                  node549             12                  (null)              gpu:0               24000               
+short               node549             12                  (null)              gpu:0               24000               
+ib                  node550             12                  (null)              gpu:0               24000               
+short               node550             12                  (null)              gpu:0               24000               
+ib                  node551             12                  (null)              gpu:0               24000               
+short               node551             12                  (null)              gpu:0               24000               
+bigmemwk            shared3             16                  (null)              gpu:0               490000              
+bigmem              shared3             16                  (null)              gpu:0               490000              
+bluemoon*           shared3             16                  (null)              gpu:0               490000              
+short               shared3             16                  (null)              gpu:0               490000              
+bigmem              shared4             24                  (null)              gpu:0               1000000             
+short               shared4             24                  (null)              gpu:0               1000000             
+bigmemwk            shared5             24                  (null)              gpu:0               1000000             
+bigmem              shared5             24                  (null)              gpu:0               1000000             
+short               shared5             24                  (null)              gpu:0               1000000             
