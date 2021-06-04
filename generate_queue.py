@@ -14,9 +14,40 @@ now = datetime.now()
 current_time = now.strftime("%A, %B %d, %Y %I:%M:%S")
 timestamp = datetime.timestamp(now)
 
-def get_resources_amount(partition='bluemoon', status='running'):
+cluster_settings = {
+    'bluemoon': {
+        'name': 'bluemoon',
+        'partitions': ['ib', 'short', 'bigmemwk', 'bigmem', 'bluemoon*', 'week'],
+    },
+    'deepgreen': {
+        'name': 'deepgreen',
+        'partitions': ['dggpu*', 'dg-jup'],
+    },
+    'blackdiamond': {
+        'name': 'bluemoon',
+        'partitions': ['bdgpu'],
+    }
+}
 
-    df = pd.read_csv(f"{args.database}/{partition}.queue.txt", delim_whitespace=True)
+def get_total_resources(cluster='bluemoon'):
+    df = pd.read_csv(f"{args.database}/{cluster_settings[cluster]['name']}.assets.txt", delim_whitespace=True, skiprows=1).drop_duplicates(subset='NODELIST')
+    df = df[df['PARTITION'].isin(cluster_settings[cluster]['partitions'])]
+    # print(df)
+    cpu = df['CPUS'].sum()
+    mem = df['MEMORY'].sum() / 1024.
+    gpu = 0
+    print(f"{cluster}: cpu: {cpu}, gpu: {gpu}, mem: {mem}")
+
+
+get_total_resources(cluster='blackdiamond')
+get_total_resources(cluster='deepgreen')
+
+exit()
+
+def get_resources_amount(cluster='bluemoon', partition='bluemoon', status='running'):
+
+    df = pd.read_csv(f"{args.database}/{cluster}.queue.txt", delim_whitespace=True)
+    df = df[df['PARTITION']==partition]
     df['MEM_G'] = df['TRES_ALLOC'].str.extract(r'mem=(\d+)G').fillna(0).astype(float)
     df['MEM_M'] = df['TRES_ALLOC'].str.extract(r'mem=(\d+)M').fillna(0).astype(float)
     df['MEM'] = df['MEM_G'] + df['MEM_M']/1024.
@@ -32,13 +63,17 @@ def get_resources_amount(partition='bluemoon', status='running'):
     cpu = df_status['CPU'].sum()
     gpu = df_status['GPU'].sum()
     mem = df_status['MEM'].sum()
-    print(f"{partition} - {status}:  cpu: {cpu}, gpu: {gpu}, mem: {mem}")
+    print(f"{cluster}/{partition}/{status}:  cpu: {cpu}, gpu: {gpu}, mem: {mem}")
     return cpu,gpu,mem
 
-get_resources_amount('bluemoon', 'waiting')
-get_resources_amount('bluemoon', 'running')
-get_resources_amount('deepgreen', 'waiting')
-get_resources_amount('deepgreen', 'running')
+get_resources_amount(cluster='bluemoon', partition='bluemoon', status='waiting')
+get_resources_amount(cluster='bluemoon', partition='bluemoon', status='running')
+get_resources_amount(cluster='bluemoon', partition='short', status='waiting')
+get_resources_amount(cluster='bluemoon', partition='short', status='running')
+get_resources_amount(cluster='deepgreen', partition='dggpu', status='waiting')
+get_resources_amount(cluster='deepgreen', partition='dggpu', status='running')
+get_resources_amount(cluster='deepgreen', partition='dg-jup', status='waiting')
+get_resources_amount(cluster='deepgreen', partition='dg-jup', status='running')
 
 
 exit()
