@@ -48,7 +48,7 @@ for i in range(2):
         df['percentage'] = 100. * df['measure'] / df['measure'].sum()
         df = df[df['percentage']>1.0]
         df = df.append({
-                    'name': 'other',
+                    'name': 'others',
                     'measure': p['measure'],
                     'percentage': 100.-df['percentage'].sum(),
                 }, ignore_index=True)
@@ -71,4 +71,4 @@ fig.update_layout(
     title=f"Recent Usage of VACC resources (Generated at {current_time})",
 )
 
-fig.write_html("plots.html", default_height=2000)
+fig.write_html("public_html/usage.plots.html", default_height=2000)
