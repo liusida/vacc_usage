@@ -36,9 +36,9 @@ def get_total_resources(cluster='bluemoon'):
     df = df[df['PARTITION'].isin(cluster_settings[cluster]['partitions'])]
     df['GPU'] = df['GRES'].str.extract(r'gpu:(\d+)').fillna(0).astype(int)
     ret = {
-        'cpu': df['CPUS'].sum(),
-        'gpu' : df['GPU'].sum(),
-        'mem': df['MEMORY'].sum() / 1024.,
+        'CPU': df['CPUS'].sum(),
+        'GPU' : df['GPU'].sum(),
+        'MEM': df['MEMORY'].sum() / 1024.,
     }
     return ret
 
@@ -68,14 +68,14 @@ def get_resources_amount(cluster='bluemoon', status='running'):
     cpu = df_status['CPU'].sum()
     gpu = df_status['GPU'].sum()
     mem = df_status['MEM'].sum()
-    print(f"{cluster}/{status}:  cpu: {cpu}/{c['cpu']}, gpu: {gpu}/{c['gpu']}, mem: {mem}/{c['mem']}")
+    print(f"{cluster}/{status}:  cpu: {cpu}/{c['CPU']}, gpu: {gpu}/{c['GPU']}, mem: {mem}/{c['MEM']}")
     ret = {
         f'{status}_CPU': cpu,
-        f'{status}_CPU_percentage': cpu / c['cpu'],
+        f'{status}_CPU_percentage': cpu / c['CPU'],
         f'{status}_GPU': gpu,
-        f'{status}_GPU_percentage': 0 if c['gpu']==0 else gpu / c['gpu'],
+        f'{status}_GPU_percentage': 0 if c['GPU']==0 else gpu / c['GPU'],
         f'{status}_MEM': mem,
-        f'{status}_MEM_percentage': mem/c['mem'],
+        f'{status}_MEM_percentage': mem/c['MEM'],
     }
     return ret
 
@@ -109,7 +109,7 @@ for i, (key,value) in enumerate(cluster_settings.items()):
             name='Idle',
             legendgroup='Idle',
             y = resource_cols,
-            x = [1-value[f'running_{_c}_percentage'] for _c in resource_cols],
+            x = [1-value[f'running_{_c}_percentage'] if value[_c]>0 else 0.0 for _c in resource_cols],
             orientation='h',
             marker=dict(
                 color='#cccccc',
