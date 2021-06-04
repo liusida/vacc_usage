@@ -20,13 +20,14 @@ def get_resources_amount(partition='bluemoon', status='running'):
     df['MEM_G'] = df['TRES_ALLOC'].str.extract(r'mem=(\d+)G').fillna(0).astype(float)
     df['MEM_M'] = df['TRES_ALLOC'].str.extract(r'mem=(\d+)M').fillna(0).astype(float)
     df['MEM'] = df['MEM_G'] + df['MEM_M']/1024.
-    df['GPU'] = df['TRES_PER_NODE'].str.extract(r'gpu:(\d+)').fillna(0).astype(float)
+    df['GPU'] = df['TRES_ALLOC'].str.extract(r'gres/gpu=(\d+)').fillna(0).astype(float)
     df['CPU'] = df['TRES_ALLOC'].str.extract(r'cpu=(\d+)').fillna(0).astype(float)
 
     if status=='running':
         df_status = df[df['EXEC_HOST'].notna()]
     else:
         df_status = df[df['EXEC_HOST'].isna()]
+    print(df_status.head())
     # print(df_status)
     cpu = df_status['CPU'].sum()
     gpu = df_status['GPU'].sum()
