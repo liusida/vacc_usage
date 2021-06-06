@@ -16,7 +16,7 @@ cur = con.cursor()
 
 from datetime import datetime
 now = datetime.now()
-current_time = now.strftime("%A, %B %d, %Y %I:%M:%S")
+current_time = now.strftime("%A, %B %d, %Y %H:%M:%S")
 timestamp = datetime.timestamp(now)
 
 plot_settings = [

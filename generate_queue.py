@@ -11,7 +11,7 @@ parser.add_argument("-d", "--database", default='data', help='path to VACC queue
 args = parser.parse_args()
 
 now = datetime.now()
-current_time = now.strftime("%A, %B %d, %Y %I:%M:%S")
+current_time = now.strftime("%A, %B %d, %Y %H:%M:%S")
 timestamp = datetime.timestamp(now)
 
 cluster_settings = {

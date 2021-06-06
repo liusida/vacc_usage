@@ -2,7 +2,8 @@
 # This script will be called hourly using cron jobs on zoo.uvm.edu.
 set -x
 
-touch ~/latest
+echo "\nStart updating..." >> ~/vacc.update.log
+date >> ~/vacc.update.log
 
 ssh vacc-user2.uvm.edu "cd ~/gpfs2/lab/vacc_usage/ && git pull"
 
@@ -17,3 +18,6 @@ ssh dg-user2.uvm.edu "cd ~/gpfs2/lab/vacc_usage/ && python generate_history.py -
 sleep 10
 
 rsync vacc-user2.uvm.edu:/users/s/l/sliu1/gpfs2/lab/vacc_usage/public_html/* ~/public_html/vacc/
+
+echo "Finished." >> ~/vacc.update.log
+date >> ~/vacc.update.log
