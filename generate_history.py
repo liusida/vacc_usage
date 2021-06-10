@@ -1,3 +1,9 @@
+"""
+Author: Sida Liu, 2021
+Compute the historical usage by querying VACC slurm logging database produced by David Matthew.
+Generate a plot into a html file `history.plots.html`.
+"""
+
 import argparse
 import sqlite3
 import pandas as pd
