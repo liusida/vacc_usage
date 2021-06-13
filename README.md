@@ -1,7 +1,7 @@
-## 
+# VACC Usage Dashboard
 
-## publish
+This dashboard has been deployed on http://www.uvm.edu/~sliu1/vacc/.
 
-```
-$ rsync public_html/* sliu1@zoo.uvm.edu:~/public_html
-```
+This page is still in Alpha. The numbers are not guaranteed to be correct. Please use slurm commands to get official numbers.
+
+Your feedback is welcome and appreciated! Please create a new issue if needed. Thanks!
