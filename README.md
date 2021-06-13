@@ -1,5 +1,7 @@
 # VACC Usage Dashboard
 
+![screenshot](images/vacc_usage.png)
+
 This dashboard has been deployed on http://www.uvm.edu/~sliu1/vacc/.
 
 This page is still in Alpha. The numbers are not guaranteed to be correct. Please use slurm commands to get official numbers.
